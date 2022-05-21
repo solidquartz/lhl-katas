@@ -12,7 +12,7 @@ const urlEncode = function (text) {
     if (trimmedText[i] === " ") {
       result += "%20";
       //adds the character to the result if it isn't whitespace
-    } else if (trimmedText != " ") {
+    } else if (trimmedText !== " ") {
       result += trimmedText[i];
     }
   }
