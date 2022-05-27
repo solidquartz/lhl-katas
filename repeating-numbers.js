@@ -5,13 +5,13 @@
 //adds a comma between each set of values if there is more than one
 
 const repeatNumbers = function (data) {
-  let repeatedNumbers = '';
+  let repeatedNumbers = "";
 
   for (let i = 0; i < data.length; i++) {
     for (let j = 0; j < data[i][1]; j++) {
       repeatedNumbers += data[i][0];
     }
-    repeatedNumbers += ', ';
+    repeatedNumbers += ", ";
   }
   return repeatedNumbers;
 };
